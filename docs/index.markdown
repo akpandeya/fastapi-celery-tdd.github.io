@@ -1,3 +1,9 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
 # Introduction
 
 Welcome to _Mastering Web Development through Test-Driven Development_, the comprehensive guide to building future-proof, high-quality web applications that stand the test of time. In this book, we will explore the principles and best practices of web development, using Test-Driven Development (TDD) as the foundation for crafting maintainable, efficient, and reliable applications.
