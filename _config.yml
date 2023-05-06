@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   building robust, scalable, and maintainable web apps. 
   Gain valuable insights and transferable skills, regardless 
   of the tech you use! 💻🌐 #WebDev #TDD #LearnToCode
-baseurl: "fastapi-celery-tdd.github.io" # the subpath of your site, e.g. /blog
-url: "https://akpandeya.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://akpandeya.github.io/fastapi-celery-tdd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: akpandeya
 
 # Build settings
