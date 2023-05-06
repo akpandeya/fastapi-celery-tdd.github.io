@@ -1,1 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-06T14:36:41+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mastering Web Development through Test-Driven Development</title><subtitle>🚀 Dive into Mastering Web Development through Test-Driven  Development! Master the principles &amp; best practices for  building robust, scalable, and maintainable web apps.  Gain valuable insights and transferable skills, regardless  of the tech you use! 💻🌐 #WebDev #TDD #LearnToCode</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-06T15:49:15+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mastering Web Development through Test-Driven Development</title><subtitle>🚀 Dive into Mastering Web Development through Test-Driven 
+ Development! Master the principles &amp; best practices for 
+ building robust, scalable, and maintainable web apps. 
+ Gain valuable insights and transferable skills, regardless 
+ of the tech you use! 💻🌐 #WebDev #TDD #LearnToCode</subtitle><entry><title type="html">Setting up local development using poetry</title><link href="http://localhost:4000/poetry/2023/05/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Setting up local development using poetry" /><published>2023-05-06T15:17:22+02:00</published><updated>2023-05-06T15:17:22+02:00</updated><id>http://localhost:4000/poetry/2023/05/06/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/poetry/2023/05/06/welcome-to-jekyll.html"><![CDATA[<p>To use Poetry instead of pip, follow these steps to set up the project:</p>
+
+<ul>
+  <li>
+    <p>Install Poetry if you haven’t already by following the instructions <a href="https://python-poetry.org/docs/#installation">here</a>.</p>
+  </li>
+  <li>
+    <p>Navigate to your project directory and run <code class="language-plaintext highlighter-rouge">poetry init</code> to create a new <code class="language-plaintext highlighter-rouge">pyproject.toml</code> file. You can accept the default values or provide custom inputs during the interactive setup.</p>
+  </li>
+  <li>
+    <p>Add the required dependencies using the following commands:</p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>poetry add fastapi
+poetry add uvicorn
+poetry add celery
+poetry add pytest
+poetry add httpx
+</code></pre></div></div>
+
+<p>These commands will automatically update the <code class="language-plaintext highlighter-rouge">pyproject.toml</code> file with the new dependencies.</p>
+
+<p>Your <code class="language-plaintext highlighter-rouge">pyproject.toml</code> file should now look something like this:</p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[tool.poetry]</span>
+<span class="py">name</span> <span class="p">=</span> <span class="s">"fastapi-celery-tdd"</span>
+<span class="py">version</span> <span class="p">=</span> <span class="s">"0.1.0"</span>
+<span class="py">description</span> <span class="p">=</span> <span class="s">""</span>
+<span class="py">authors</span> <span class="p">=</span> <span class="p">[</span><span class="s">"Your Name &lt;your.email@example.com&gt;"</span><span class="p">]</span>
+
+<span class="nn">[tool.poetry.dependencies]</span>
+<span class="py">python</span> <span class="p">=</span> <span class="s">"^3.7"</span>
+<span class="py">fastapi</span> <span class="p">=</span> <span class="s">"^0.68.1"</span>
+<span class="py">uvicorn</span> <span class="p">=</span> <span class="s">"^0.15.0"</span>
+<span class="py">celery</span> <span class="p">=</span> <span class="s">"^5.1.2"</span>
+<span class="py">httpx</span> <span class="p">=</span> <span class="s">"^0.19.0"</span>
+
+<span class="nn">[tool.poetry.dev-dependencies]</span>
+<span class="py">pytest</span> <span class="p">=</span> <span class="s">"^6.2.5"</span>
+
+<span class="nn">[build-system]</span>
+<span class="py">requires</span> <span class="p">=</span> <span class="py">["poetry-core&gt;</span><span class="p">=</span><span class="mf">1.0</span><span class="err">.</span><span class="mi">0</span><span class="s">"]</span><span class="err">
+</span><span class="py">build-backend</span> <span class="p">=</span> <span class="s">"poetry.core.masonry.api"</span>
+</code></pre></div></div>
+
+<ul>
+  <li>To install the dependencies, run:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>poetry <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>This will create a virtual environment and install the dependencies specified in the <code class="language-plaintext highlighter-rouge">pyproject.toml</code> file.</p>]]></content><author><name></name></author><category term="poetry" /><summary type="html"><![CDATA[To use Poetry instead of pip, follow these steps to set up the project:]]></summary></entry></feed>
