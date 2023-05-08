@@ -2,9 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+nav_order: 1
 ---
 
-Discover the power of Test-Driven Development in _Mastering Web Development through Test-Driven Development_. This comprehensive guide focuses on core web development principles and best practices, empowering developers to build robust, scalable, and maintainable web applications. Enhance your skills with insights and techniques that transcend specific technologies, and unlock the secrets to creating future-proof, high-quality applications.  
-
-Avanindra Kumar Pandeya  
-Software Engineer
+🚀 Get ready for _{{ site.title }}_! Master Test-Driven Development and create impeccable APIs with confidence. Elevate your web development game and unlock the full potential of TDD for truly exceptional API design! 🌐💻 #WebDev #TDD #APIs #LearnToCode

@@ -1,17 +1,19 @@
-title: Mastering Web Development through Test-Driven Development
+title: "Flawless APIs: TDD Unlocked"
 email: akpandeya1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- 🚀 Dive into Mastering Web Development through Test-Driven 
-  Development! Master the principles & best practices for 
-  building robust, scalable, and maintainable web apps. 
-  Gain valuable insights and transferable skills, regardless 
-  of the tech you use! 💻🌐 #WebDev #TDD #LearnToCode
+ 🚀 Embark on a thrilling journey with Test-Driven API Odyssey! 
+ Hone your skills and master the art of crafting robust, scalable, 
+ and maintainable APIs using Test-Driven Development. Unlock your true potential as an API architect today! 
+ 🌟💻 #TDD #APIs #WebDev #LearnToCode
 github_username: akpandeya
 domain: fastapi-celery-tdd.github.io      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://akpandeya.github.io/b  # the base hostname and protocol for your site, e.g. http://example.com
 # baseurl: fastapi-celery-tdd.github.io     # place folder name if the site is served in a subfolder
 
 # Build settings
-theme: minima
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+favicon_ico: "/assets/images/favicon.ico"
