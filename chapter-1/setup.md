@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project Setup
-nav_order: 1
+nav_order: 2
 parent: Chapter 1 - Project Setup and Hello World API
 ---
 In this project, we will be using Poetry as our package manager and dependency management tool, instead of pip. There are several reasons why we have chosen Poetry over pip:
